@@ -1,4 +1,4 @@
 import { createAction, props } from '@ngrx/store';
 
 
-export const changeLoading = createAction('[Scoreboard Page] Set Scores', props<{loading:number}>());
+export const changeLoading = createAction('[General] Change Loading State', props<{loading:boolean}>());

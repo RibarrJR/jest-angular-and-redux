@@ -1,0 +1,22 @@
+<!-- <button (click)="getUserSession()">Get Logged User</button>
+
+<button (click)="setUser()">Set User</button>
+
+{{(userLogged$ |async )|json}} -->
+
+<div class="container h-100 bg-dark">
+    <div class="jumbotron jumbotron-fluid row">
+      <form [formGroup]="login" class="col-12 justify-content-center d-flex" >
+        <div class="form-group col-6 text-center d-flex flex-column align-items-center  ">
+
+          <label for="user"> - User -</label>
+          <input id="user" class="form-control" type="text" formControlName="user">
+
+          <label for="password"> - Password -</label>
+          <input id="password" class="form-control" type="password" formControlName="password">
+
+        </div>
+
+      </form>
+    </div>
+</div>
